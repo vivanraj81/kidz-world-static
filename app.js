@@ -3,7 +3,7 @@
 const addCartItems = document.querySelectorAll(".button");
 const cartValue = document.getElementById("cart-value");
 let totalPrice = 0;
-const CartItems = new Map(); // Use a Map to store cart items
+const CartItems = new Map(); 
 
 // Adding event to button
 addCartItems.forEach((button) => {
